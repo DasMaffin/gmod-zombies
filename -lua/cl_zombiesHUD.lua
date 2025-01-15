@@ -1,6 +1,6 @@
 zombies.overlayIndex = 0 -- Index 0: No overlay open; Index 1: Overlay open; Index 2: Detailed Overlay Open
 zombies.overlayFrame = nil
-
+ 
 hook.Add("Initialize", "PreloadCustomFonts", function()
     surface.CreateFont("CustomFont", {
         font = "Arial", -- Font face (e.g., Arial, Roboto, etc.)
